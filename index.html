@@ -67,9 +67,9 @@ strong { font-weight: 700; }
 .border\-t { border-top-width: 1px; }
 .border\-y { border-top-width: 1px; border-bottom-width: 1px; }
 .bottom\-0 { bottom: 0px; }
-.bottom\-2\.5 { bottom: 0.625rem; }
+.bottom\-2 { bottom: 0.5rem; }
 .bottom\-3 { bottom: 0.75rem; }
-.bottom\-\[58px\] { bottom: 58px; }
+.bottom\-\[56px\] { bottom: 56px; }
 .disabled\:opacity\-40:disabled { opacity: 0.4; }
 .divide\-\[\#f0f3f0\] > :not([hidden]) ~ :not([hidden]) { border-color: #f0f3f0; }
 .divide\-y > :not([hidden]) ~ :not([hidden]) { border-top-width: 1px; }
@@ -106,13 +106,14 @@ strong { font-weight: 700; }
 .h\-3\.5 { height: 0.875rem; }
 .h\-4 { height: 1rem; }
 .h\-5 { height: 1.25rem; }
-.h\-7 { height: 1.75rem; }
+.h\-6 { height: 1.5rem; }
 .h\-8 { height: 2rem; }
 .h\-9 { height: 2.25rem; }
+.h\-\[17px\] { height: 17px; }
 .h\-\[18px\] { height: 18px; }
-.h\-\[56px\] { height: 56px; }
-.h\-\[86px\] { height: 86px; }
-.h\-\[calc\(100dvh\-64px\)\] { height: calc(100dvh - 64px); }
+.h\-\[52px\] { height: 52px; }
+.h\-\[72px\] { height: 72px; }
+.h\-\[calc\(100dvh\-46px\)\] { height: calc(100vh - 46px); height: calc(100dvh - 46px); }
 .h\-full { height: 100%; }
 .hidden { display: none; }
 .hover\:bg\-\[\#15803d\]:hover { background-color: #15803d; }
@@ -133,10 +134,9 @@ strong { font-weight: 700; }
 .left\-1\/2 { left: 50%; }
 .left\-2\.5 { left: 0.625rem; }
 .left\-3 { left: 0.75rem; }
-.line\-clamp\-1 { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; }
 .list\-disc { list-style-type: disc; }
 .m\-0 { margin: 0px; }
-.max\-h\-\[300px\] { max-height: 300px; }
+.max\-h\-\[250px\] { max-height: 250px; }
 .max\-h\-\[88\%\] { max-height: 88%; }
 .max\-w\-3xl { max-width: 48rem; }
 .max\-w\-4xl { max-width: 56rem; }
@@ -144,15 +144,16 @@ strong { font-weight: 700; }
 .mb\-1 { margin-bottom: 0.25rem; }
 .mb\-1\.5 { margin-bottom: 0.375rem; }
 .min\-h\-0 { min-height: 0px; }
-.min\-h\-\[86px\] { min-height: 86px; }
+.min\-h\-\[72px\] { min-height: 72px; }
 .min\-w\-0 { min-width: 0px; }
 .min\-w\-\[16px\] { min-width: 16px; }
+.min\-w\-\[17px\] { min-width: 17px; }
 .min\-w\-\[18px\] { min-width: 18px; }
-.min\-w\-\[54px\] { min-width: 54px; }
-.min\-w\-\[62px\] { min-width: 62px; }
+.min\-w\-\[56px\] { min-width: 56px; }
 .min\-w\-\[66px\] { min-width: 66px; }
+.min\-w\-\[88px\] { min-width: 88px; }
 .ml\-2 { margin-left: 0.5rem; }
-.mr\-2 { margin-right: 0.5rem; }
+.mr\-1\.5 { margin-right: 0.375rem; }
 .mt\-0\.5 { margin-top: 0.125rem; }
 .mt\-1 { margin-top: 0.25rem; }
 .mt\-2\.5 { margin-top: 0.625rem; }
@@ -162,6 +163,7 @@ strong { font-weight: 700; }
 .object\-cover { object-fit: cover; }
 .overflow\-hidden { overflow: hidden; }
 .overflow\-x\-auto { overflow-x: auto; }
+.overflow\-x\-hidden { overflow-x: hidden; }
 .overflow\-y\-auto { overflow-y: auto; }
 .p\-0 { padding: 0px; }
 .p\-0\.5 { padding: 0.125rem; }
@@ -174,11 +176,13 @@ strong { font-weight: 700; }
 .p\-4 { padding: 1rem; }
 .p\-6 { padding: 1.5rem; }
 .pb\-0\.5 { padding-bottom: 0.125rem; }
+.pb\-1\.5 { padding-bottom: 0.375rem; }
 .pb\-10 { padding-bottom: 2.5rem; }
 .pb\-2 { padding-bottom: 0.5rem; }
 .pb\-2\.5 { padding-bottom: 0.625rem; }
 .pb\-24 { padding-bottom: 6rem; }
 .pb\-3 { padding-bottom: 0.75rem; }
+.pb\-32 { padding-bottom: 8rem; }
 .pb\-6 { padding-bottom: 1.5rem; }
 .pl\-1 { padding-left: 0.25rem; }
 .pl\-2 { padding-left: 0.5rem; }
@@ -189,8 +193,10 @@ strong { font-weight: 700; }
 .pr\-3 { padding-right: 0.75rem; }
 .pt\-0\.5 { padding-top: 0.125rem; }
 .pt\-1 { padding-top: 0.25rem; }
+.pt\-1\.5 { padding-top: 0.375rem; }
 .pt\-2 { padding-top: 0.5rem; }
 .pt\-3 { padding-top: 0.75rem; }
+.px\-0\.5 { padding-left: 0.125rem; padding-right: 0.125rem; }
 .px\-1 { padding-left: 0.25rem; padding-right: 0.25rem; }
 .px\-1\.5 { padding-left: 0.375rem; padding-right: 0.375rem; }
 .px\-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
@@ -198,7 +204,6 @@ strong { font-weight: 700; }
 .px\-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
 .px\-3\.5 { padding-left: 0.875rem; padding-right: 0.875rem; }
 .px\-4 { padding-left: 1rem; padding-right: 1rem; }
-.px\-5 { padding-left: 1.25rem; padding-right: 1.25rem; }
 .px\-7 { padding-left: 1.75rem; padding-right: 1.75rem; }
 .py\-0\.5 { padding-top: 0.125rem; padding-bottom: 0.125rem; }
 .py\-1 { padding-top: 0.25rem; padding-bottom: 0.25rem; }
@@ -207,6 +212,7 @@ strong { font-weight: 700; }
 .py\-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
 .py\-2\.5 { padding-top: 0.625rem; padding-bottom: 0.625rem; }
 .py\-3 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+.py\-3\.5 { padding-top: 0.875rem; padding-bottom: 0.875rem; }
 .py\-4 { padding-top: 1rem; padding-bottom: 1rem; }
 .py\-8 { padding-top: 2rem; padding-bottom: 2rem; }
 .relative { position: relative; }
@@ -251,10 +257,9 @@ strong { font-weight: 700; }
 .text\-\[15px\] { font-size: 15px; }
 .text\-\[16px\] { font-size: 16px; }
 .text\-\[17px\] { font-size: 17px; }
-.text\-\[18px\] { font-size: 18px; }
-.text\-\[20px\] { font-size: 20px; }
+.text\-\[19px\] { font-size: 19px; }
 .text\-\[21px\] { font-size: 21px; }
-.text\-\[24px\] { font-size: 24px; }
+.text\-\[22px\] { font-size: 22px; }
 .text\-base { font-size: 1rem; line-height: 1.5rem; }
 .text\-center { text-align: center; }
 .text\-left { text-align: left; }
@@ -264,7 +269,7 @@ strong { font-weight: 700; }
 .text\-xs { font-size: 0.75rem; line-height: 1rem; }
 .to\-white { --tw-gradient-to: #ffffff; }
 .top\-16 { top: 4rem; }
-.top\-2\.5 { top: 0.625rem; }
+.top\-2 { top: 0.5rem; }
 .top\-3 { top: 0.75rem; }
 .tracking\-wider { letter-spacing: 0.05em; }
 .transition\-all { transition-property: all; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
@@ -272,18 +277,19 @@ strong { font-weight: 700; }
 .truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .w\-1 { width: 0.25rem; }
 .w\-10 { width: 2.5rem; }
+.w\-11 { width: 2.75rem; }
 .w\-12 { width: 3rem; }
 .w\-2 { width: 0.5rem; }
 .w\-2\.5 { width: 0.625rem; }
-.w\-24 { width: 6rem; }
 .w\-28 { width: 7rem; }
 .w\-3\.5 { width: 0.875rem; }
 .w\-4 { width: 1rem; }
 .w\-5 { width: 1.25rem; }
-.w\-7 { width: 1.75rem; }
+.w\-6 { width: 1.5rem; }
 .w\-8 { width: 2rem; }
-.w\-\[86px\] { width: 86px; }
-.w\-\[92px\] { width: 92px; }
+.w\-9 { width: 2.25rem; }
+.w\-\[72px\] { width: 72px; }
+.w\-\[74px\] { width: 74px; }
 .w\-full { width: 100%; }
 .whitespace\-nowrap { white-space: nowrap; }
 .z\-10 { z-index: 10; }
@@ -294,14 +300,37 @@ strong { font-weight: 700; }
 @media (min-width: 640px) {
   .sm\:border { border-width: 1px; }
   .sm\:border\-\[\#dce3dc\] { border-color: #dce3dc; }
+  .sm\:flex { display: flex; }
   .sm\:flex\-row { flex-direction: row; }
+  .sm\:gap\-2 { gap: 0.5rem; }
+  .sm\:h\-10 { height: 2.5rem; }
   .sm\:h\-\[780px\] { height: 780px; }
+  .sm\:h\-\[82px\] { height: 82px; }
   .sm\:items\-center { align-items: center; }
+  .sm\:justify\-end { justify-content: flex-end; }
+  .sm\:max\-h\-\[290px\] { max-height: 290px; }
   .sm\:max\-h\-\[88vh\] { max-height: 88vh; }
+  .sm\:min\-h\-\[82px\] { min-height: 82px; }
   .sm\:my\-1 { margin-top: 0.25rem; margin-bottom: 0.25rem; }
+  .sm\:pb\-2 { padding-bottom: 0.5rem; }
+  .sm\:pt\-2\.5 { padding-top: 0.625rem; }
+  .sm\:pt\-3 { padding-top: 0.75rem; }
+  .sm\:px\-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
+  .sm\:py\-1\.5 { padding-top: 0.375rem; padding-bottom: 0.375rem; }
   .sm\:rounded\-\[28px\] { border-radius: 28px; }
   .sm\:self\-auto { align-self: auto; }
   .sm\:shadow\-sm { box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); }
+  .sm\:text\-\[12px\] { font-size: 12px; }
+  .sm\:text\-\[13px\] { font-size: 13px; }
+  .sm\:text\-\[14px\] { font-size: 14px; }
+  .sm\:text\-\[15px\] { font-size: 15px; }
+  .sm\:text\-\[16px\] { font-size: 16px; }
+  .sm\:text\-\[20px\] { font-size: 20px; }
+  .sm\:text\-\[24px\] { font-size: 24px; }
+  .sm\:w\-10 { width: 2.5rem; }
+  .sm\:w\-\[82px\] { width: 82px; }
+  .sm\:w\-\[86px\] { width: 86px; }
+  .sm\:w\-auto { width: auto; }
 }
 @media (min-width: 768px) {
   .md\:col\-span\-5 { grid-column: span 5 / span 5; }
@@ -326,22 +355,22 @@ strong { font-weight: 700; }
   </style>
 </head>
 <body class="m-0 p-0 antialiased">
-  <!-- Outer Preview Controls -->
-  <div class="max-w-3xl mx-auto px-3 pt-3 pb-2 flex flex-wrap items-center justify-between gap-2">
-    <div class="flex items-center gap-2">
+  <!-- Outer Preview Controls (Compact single bar on mobile) -->
+  <div class="max-w-3xl mx-auto px-2.5 sm:px-3 pt-1.5 sm:pt-3 pb-1.5 sm:pb-2 flex items-center justify-between gap-2">
+    <div class="hidden sm:flex items-center gap-2">
       <span class="w-2.5 h-2.5 rounded-full bg-[#16a34a]"></span>
       <span class="text-sm font-semibold text-[#111827]">移动端生鲜预定预览（白绿配色 · 左分类右滑动 · 二级详情页）</span>
     </div>
-    <div class="flex flex-wrap items-center gap-2">
+    <div class="w-full sm:w-auto flex items-center justify-between sm:justify-end gap-2">
       <div class="inline-flex rounded-lg bg-white border border-[#e2e8e2] p-0.5">
-        <button id="mode-customer-btn" class="px-3 py-1.5 rounded-md text-xs font-medium bg-[#f0fdf4] text-[#15803d] border border-[#bbf7d0]">
+        <button id="mode-customer-btn" class="px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-md text-xs font-medium bg-[#f0fdf4] text-[#15803d] border border-[#bbf7d0]">
           顾客手机端
         </button>
-        <button id="mode-store-btn" class="px-3 py-1.5 rounded-md text-xs font-medium text-[#4b5563]">
+        <button id="mode-store-btn" class="px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-md text-xs font-medium text-[#4b5563]">
           门店备货/核销端
         </button>
       </div>
-      <button id="elder-toggle-btn" class="px-3 py-1.5 rounded-lg bg-white border border-[#16a34a] text-[#15803d] text-xs font-semibold flex items-center gap-1.5">
+      <button id="elder-toggle-btn" class="px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-lg bg-white border border-[#16a34a] text-[#15803d] text-xs font-semibold flex items-center gap-1.5 shrink-0">
         <span id="elder-dot" class="w-2 h-2 rounded-full bg-[#d1d5db]"></span>
         <span id="elder-label">开启关怀大字版</span>
       </button>
@@ -349,64 +378,64 @@ strong { font-weight: 700; }
   </div>
 
   <!-- ==================== CUSTOMER MOBILE SHELL (Fixed Viewport Height for Independent Right Scroll) ==================== -->
-  <main id="shell-customer" class="max-w-[430px] mx-auto sm:my-1 bg-white sm:border sm:border-[#dce3dc] sm:rounded-[28px] sm:shadow-sm overflow-hidden flex flex-col h-[calc(100dvh-64px)] sm:h-[780px] sm:max-h-[88vh] relative">
+  <main id="shell-customer" class="w-full max-w-[430px] mx-auto sm:my-1 bg-white sm:border sm:border-[#dce3dc] sm:rounded-[28px] sm:shadow-sm overflow-hidden flex flex-col h-[calc(100dvh-46px)] sm:h-[780px] sm:max-h-[88vh] relative">
 
     <!-- ===== VIEW A: MAIN SPLIT CATALOG (image.png layout) ===== -->
-    <div id="view-catalog" class="flex-1 flex flex-col min-h-0">
+    <div id="view-catalog" class="flex-1 flex flex-col min-h-0 min-w-0">
       <!-- Top Search + Cart Header (Clean white with faint green tint, no solid block) -->
-      <header class="bg-gradient-to-b from-[#f3fbf5] to-white border-b border-[#eaf0ea] px-3 pt-3 pb-2.5 space-y-2.5 shrink-0">
-        <div class="flex items-center gap-2.5">
-          <div class="flex-1 flex items-center bg-white border border-[#d6e4d6] rounded-full px-3.5 h-10 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
-            <svg class="w-4 h-4 text-[#6b7280] mr-2 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <header class="bg-gradient-to-b from-[#f3fbf5] to-white border-b border-[#eaf0ea] px-2.5 sm:px-3 pt-2 sm:pt-2.5 pb-2 space-y-2 shrink-0">
+        <div class="flex items-center gap-2 min-w-0">
+          <div class="flex-1 min-w-0 flex items-center bg-white border border-[#d6e4d6] rounded-full px-3 h-9 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
+            <svg class="w-4 h-4 text-[#6b7280] mr-1.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path>
             </svg>
-            <input id="search-input" type="text" placeholder="搜索生鲜菜品（如：青菜、五花肉）" class="t-body w-full bg-transparent text-[14px] text-[#111827] placeholder-[#9ca3af] focus:outline-none" />
-            <span class="text-[#15803d] text-[13px] font-semibold pl-2 border-l border-[#e5eae5] shrink-0">搜索</span>
+            <input id="search-input" type="text" placeholder="搜索菜品（如：青菜、五花肉）" class="t-body flex-1 min-w-0 bg-transparent text-[13px] text-[#111827] placeholder-[#9ca3af] focus:outline-none" />
+            <span class="text-[#15803d] text-[12px] font-semibold pl-2 border-l border-[#e5eae5] shrink-0">搜索</span>
           </div>
 
           <!-- Cart Shortcut + Elder Toggle -->
-          <button id="top-cart-btn" class="relative w-10 h-10 rounded-full bg-white border border-[#dce5dc] flex items-center justify-center shrink-0" title="查看清单">
-            <svg class="w-5 h-5 text-[#111827]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <button id="top-cart-btn" class="relative w-9 h-9 rounded-full bg-white border border-[#dce5dc] flex items-center justify-center shrink-0" title="查看清单">
+            <svg class="w-4 h-4 text-[#111827]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/>
             </svg>
-            <span id="top-cart-badge" class="absolute -top-1 -right-1 min-w-[18px] h-[18px] px-1 rounded-full bg-[#15803d] text-white text-[11px] font-bold flex items-center justify-center tabular-nums">2</span>
+            <span id="top-cart-badge" class="absolute -top-1 -right-1 min-w-[18px] h-[18px] px-1 rounded-full bg-[#15803d] text-white text-[10px] font-bold flex items-center justify-center tabular-nums">2</span>
           </button>
 
-          <button id="inner-elder-btn" class="px-2.5 h-9 rounded-full border border-[#bbf7d0] bg-[#f0fdf4] text-[#15803d] text-xs font-semibold shrink-0">
+          <button id="inner-elder-btn" class="px-2.5 h-8 rounded-full border border-[#bbf7d0] bg-[#f0fdf4] text-[#15803d] text-xs font-semibold shrink-0">
             大字
           </button>
         </div>
 
         <!-- Top Circular Primary Category Strip (just like image.png) -->
-        <div id="primary-cat-strip" class="flex items-start gap-2.5 overflow-x-auto no-scrollbar pt-0.5 pb-0.5"></div>
+        <div id="primary-cat-strip" class="flex items-start gap-2 overflow-x-auto no-scrollbar pt-0.5 pb-0.5"></div>
       </header>
 
-      <!-- Middle Split Body: Left Fixed Rail + Right Independently Scrollable Column -->
-      <div class="flex-1 flex min-h-0 overflow-hidden bg-white">
+      <!-- Middle Split Body: Left Fixed Rail (~20%) + Right Independently Scrollable Column (~80%) -->
+      <div class="flex-1 flex min-h-0 min-w-0 overflow-hidden bg-white">
         <!-- Left Sub-category Rail -->
-        <aside id="sub-cat-rail" class="w-[92px] bg-[#f6f8f6] border-r border-[#edf1ed] overflow-y-auto no-scrollbar shrink-0 py-1"></aside>
+        <aside id="sub-cat-rail" class="w-[74px] sm:w-[86px] bg-[#f6f8f6] border-r border-[#edf1ed] overflow-y-auto no-scrollbar shrink-0 py-1"></aside>
 
         <!-- Right Scrollable Product Area (independently scrollable!) -->
-        <div id="right-scroll-pane" class="flex-1 overflow-y-auto px-3 py-2.5 space-y-2.5 pb-24">
+        <div id="right-scroll-pane" class="flex-1 min-w-0 overflow-y-auto overflow-x-hidden px-2.5 sm:px-3 py-2 space-y-2 pb-32">
           <!-- Slim White-Green Cutoff Notice (No heavy color block) -->
-          <div class="flex items-center justify-between gap-2 bg-[#f7fcf8] border border-[#cde8d3] rounded-xl px-3 py-2">
-            <div class="t-sub text-[12px] text-[#1f2937] leading-snug">
-              今晚 <strong class="text-[#15803d]">19:00</strong> 截单 · 明日 <strong class="text-[#15803d]">10:00</strong> 起自提
+          <div class="flex items-center justify-between gap-1.5 bg-[#f7fcf8] border border-[#cde8d3] rounded-xl px-2.5 py-1.5 min-w-0">
+            <div class="t-sub text-[11px] sm:text-[12px] text-[#1f2937] leading-snug truncate min-w-0">
+              今晚 <strong class="text-[#15803d]">19:00</strong> 截单 · 明日 <strong class="text-[#15803d]">10:00</strong> 取
             </div>
-            <span id="cutoff-timer" class="text-[12px] font-mono tabular-nums font-bold text-[#15803d] shrink-0">02:15:30</span>
+            <span id="cutoff-timer" class="text-[11px] sm:text-[12px] font-mono tabular-nums font-bold text-[#15803d] shrink-0">02:15:30</span>
           </div>
 
           <!-- Sort / Filter Row (like image.png: 销量 / 价格 + quick pills) -->
-          <div class="flex items-center justify-between border-b border-[#f0f3f0] pb-2 text-[13px] text-[#4b5563]">
-            <div class="flex items-center gap-2">
-              <button data-sort="default" class="sort-btn px-2.5 py-1 rounded-lg bg-[#f0fdf4] text-[#15803d] font-semibold text-xs">全部推荐</button>
-              <button data-sort="price_asc" class="sort-btn px-2.5 py-1 rounded-lg bg-[#f6f8f6] text-[#4b5563] text-xs">价格从低到高</button>
+          <div class="flex items-center justify-between gap-1.5 border-b border-[#f0f3f0] pb-1.5 text-[12px] text-[#4b5563] min-w-0">
+            <div class="flex items-center gap-1.5 min-w-0">
+              <button data-sort="default" class="sort-btn px-2 py-1 rounded-lg bg-[#f0fdf4] text-[#15803d] font-semibold text-[11px] whitespace-nowrap">全部推荐</button>
+              <button data-sort="price_asc" class="sort-btn px-2 py-1 rounded-lg bg-[#f6f8f6] text-[#4b5563] text-[11px] whitespace-nowrap">价格从低到高</button>
             </div>
-            <span class="text-[12px] text-[#15803d]">保证有货</span>
+            <span class="text-[11px] text-[#15803d] whitespace-nowrap shrink-0">保证有货</span>
           </div>
 
           <!-- Product Cards List -->
-          <div id="catalog-product-list" class="divide-y divide-[#f0f3f0]"></div>
+          <div id="catalog-product-list" class="divide-y divide-[#f0f3f0] min-w-0"></div>
         </div>
       </div>
     </div>
@@ -431,7 +460,7 @@ strong { font-weight: 700; }
             </button>
           </div>
 
-          <div class="aspect-square max-h-[300px] w-full flex items-center justify-center p-4 bg-white">
+          <div class="aspect-square max-h-[250px] sm:max-h-[290px] w-full flex items-center justify-center p-4 bg-white">
             <img id="detail-img" src="" alt="" class="w-full h-full object-contain rounded-2xl" />
           </div>
 
@@ -444,35 +473,35 @@ strong { font-weight: 700; }
         </div>
 
         <!-- White & Green Price + Title + Weight Selection Card (No big red block!) -->
-        <div class="bg-white border-b border-[#e5eae5] px-4 py-4 space-y-3.5">
-          <div class="flex items-center justify-between gap-2 pb-2.5 border-b border-[#f0f3f0]">
+        <div class="bg-white border-b border-[#e5eae5] px-4 py-3.5 space-y-3">
+          <div class="flex items-center justify-between gap-2 flex-wrap pb-2.5 border-b border-[#f0f3f0]">
             <div class="flex items-baseline gap-1.5">
-              <span id="detail-unit-price" class="t-price text-[24px] font-bold text-[#15803d] tabular-nums">¥24.00</span>
-              <span class="t-sub text-[13px] text-[#4b5563]">/ 1斤 (500g) 一口价</span>
+              <span id="detail-unit-price" class="t-price text-[22px] sm:text-[24px] font-bold text-[#15803d] tabular-nums">¥24.00</span>
+              <span class="t-sub text-[12px] sm:text-[13px] text-[#4b5563]">/ 1斤 (500g) 一口价</span>
             </div>
-            <span class="px-2.5 py-1 rounded-lg bg-[#f0fdf4] border border-[#bbf7d0] text-[#15803d] text-xs font-semibold">
+            <span class="px-2 py-1 rounded-lg bg-[#f0fdf4] border border-[#bbf7d0] text-[#15803d] text-[11px] font-semibold whitespace-nowrap">
               19:00 截单 · 明日10:00取
             </span>
           </div>
 
           <div>
-            <h2 id="detail-title" class="t-title text-[20px] font-bold text-[#111827] leading-snug"></h2>
-            <p id="detail-desc" class="t-body text-[14px] text-[#4b5563] mt-1"></p>
+            <h2 id="detail-title" class="t-title text-[19px] sm:text-[20px] font-bold text-[#111827] leading-snug"></h2>
+            <p id="detail-desc" class="t-body text-[13px] sm:text-[14px] text-[#4b5563] mt-1"></p>
           </div>
 
           <!-- Weight Selector right on Detail Page (Jin + Grams) -->
           <div class="bg-[#f8fbf8] border border-[#dce8dc] rounded-2xl p-3 space-y-2.5">
-            <div class="flex items-center justify-between text-xs text-[#374151]">
-              <span class="t-sub font-semibold">选择下单重量（门店按此重量备好）</span>
-              <span id="detail-calc-price" class="text-[15px] font-bold text-[#15803d] tabular-nums"></span>
+            <div class="flex items-center justify-between gap-2 text-xs text-[#374151]">
+              <span class="t-sub font-semibold">选择下单重量（门店按此备货）</span>
+              <span id="detail-calc-price" class="text-[14px] sm:text-[15px] font-bold text-[#15803d] tabular-nums shrink-0"></span>
             </div>
-            <div id="detail-weight-pills" class="flex flex-wrap gap-2"></div>
+            <div id="detail-weight-pills" class="flex flex-wrap gap-1.5 sm:gap-2"></div>
             <div class="flex items-center justify-between pt-1">
               <span class="t-sub text-[13px] text-[#4b5563]">微调克重</span>
               <div class="flex items-center gap-2">
-                <button id="detail-w-dec" class="w-10 h-10 rounded-xl bg-white border border-[#d1d5db] text-lg font-bold text-[#111827]">-</button>
-                <span id="detail-w-readout" class="t-body w-24 text-center font-bold text-[15px] tabular-nums text-[#111827]"></span>
-                <button id="detail-w-inc" class="w-10 h-10 rounded-xl bg-[#15803d] text-white text-lg font-bold">+</button>
+                <button id="detail-w-dec" class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-white border border-[#d1d5db] text-lg font-bold text-[#111827]">-</button>
+                <span id="detail-w-readout" class="t-body min-w-[88px] px-1 text-center font-bold text-[14px] sm:text-[15px] tabular-nums text-[#111827]"></span>
+                <button id="detail-w-inc" class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-[#15803d] text-white text-lg font-bold">+</button>
               </div>
             </div>
           </div>
@@ -480,16 +509,16 @@ strong { font-weight: 700; }
           <!-- 3-Column Feature Strip (just like image_2.png) -->
           <div class="grid grid-cols-3 gap-2 pt-1 text-center bg-[#f9faf9] border border-[#edf1ed] rounded-xl py-2.5 px-2">
             <div class="border-r border-[#e5eae5] pr-1">
-              <div id="detail-attr1" class="t-body text-[14px] font-bold text-[#111827]">当日鲜采</div>
-              <div class="text-[12px] text-[#6b7280] mt-0.5">推荐理由</div>
+              <div id="detail-attr1" class="t-body text-[13px] sm:text-[14px] font-bold text-[#111827]">当日鲜采</div>
+              <div class="text-[11px] sm:text-[12px] text-[#6b7280] mt-0.5">推荐理由</div>
             </div>
             <div class="border-r border-[#e5eae5] px-1">
-              <div id="detail-attr2" class="t-body text-[14px] font-bold text-[#111827]">足秤分装</div>
-              <div class="text-[12px] text-[#6b7280] mt-0.5">备货标准</div>
+              <div id="detail-attr2" class="t-body text-[13px] sm:text-[14px] font-bold text-[#111827]">足秤分装</div>
+              <div class="text-[11px] sm:text-[12px] text-[#6b7280] mt-0.5">备货标准</div>
             </div>
             <div class="pl-1">
-              <div id="detail-attr3" class="t-body text-[14px] font-bold text-[#111827]">0-4℃冷藏</div>
-              <div class="text-[12px] text-[#6b7280] mt-0.5">储存条件</div>
+              <div id="detail-attr3" class="t-body text-[13px] sm:text-[14px] font-bold text-[#111827]">0-4℃冷藏</div>
+              <div class="text-[11px] sm:text-[12px] text-[#6b7280] mt-0.5">储存条件</div>
             </div>
           </div>
         </div>
@@ -506,7 +535,7 @@ strong { font-weight: 700; }
       </div>
 
       <!-- Fixed Bottom Detail Bar (image_2.png style: Home + Cart + Big Pill Add Button) -->
-      <div class="absolute bottom-0 left-0 right-0 bg-white border-t border-[#e5eae5] px-3 py-2.5 flex items-center gap-3 z-30 shadow-[0_-4px_12px_rgba(0,0,0,0.04)]">
+      <div class="absolute bottom-0 left-0 right-0 bg-white border-t border-[#e5eae5] px-3 py-2 flex items-center gap-3 z-30 shadow-[0_-4px_12px_rgba(0,0,0,0.04)]">
         <button id="detail-home-btn" class="flex flex-col items-center justify-center px-2 text-[#4b5563]">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
@@ -520,14 +549,14 @@ strong { font-weight: 700; }
           <span id="detail-bottom-badge" class="absolute -top-1 right-0 min-w-[16px] h-4 px-1 rounded-full bg-[#15803d] text-white text-[10px] font-bold flex items-center justify-center tabular-nums">2</span>
           <span class="text-[11px] mt-0.5">清单</span>
         </button>
-        <button id="detail-add-btn" class="touch-btn flex-1 h-12 rounded-full bg-[#16a34a] text-white text-[16px] font-bold flex items-center justify-center hover:bg-[#15803d] active:scale-[0.99] transition-all tabular-nums">
+        <button id="detail-add-btn" class="touch-btn flex-1 h-11 rounded-full bg-[#16a34a] text-white text-[15px] font-bold flex items-center justify-center hover:bg-[#15803d] active:scale-[0.99] transition-all tabular-nums">
           + 加入预定清单
         </button>
       </div>
     </div>
 
     <!-- ===== VIEW C: MY ORDERS & QR CODE ===== -->
-    <div id="view-orders" class="hidden flex-1 overflow-y-auto px-3.5 py-4 pb-24 space-y-3.5 bg-[#f6f8f6]">
+    <div id="view-orders" class="hidden flex-1 overflow-y-auto px-3.5 py-4 pb-32 space-y-3.5 bg-[#f6f8f6]">
       <div class="bg-white border border-[#e5eae5] rounded-2xl p-3.5 flex items-center justify-between gap-2">
         <div>
           <h2 class="t-title text-[17px] font-bold text-[#111827]">我的取货二维码</h2>
@@ -543,37 +572,37 @@ strong { font-weight: 700; }
     <!-- Sticky Bottom Checkout Pill + Bottom Nav (Shown on Catalog & Orders Views) -->
     <div id="catalog-bottom-chrome">
       <!-- Floating Checkout Bar above Bottom Nav -->
-      <div id="sticky-checkout-bar" class="absolute bottom-[58px] left-2.5 right-2.5 bg-white border border-[#cde8d3] rounded-2xl px-3.5 py-2 flex items-center justify-between gap-3 z-20 shadow-[0_4px_16px_rgba(0,0,0,0.06)]">
-        <button id="open-cart-btn" class="flex items-center gap-2.5 text-left flex-1 min-w-0">
-          <div class="relative w-10 h-10 rounded-xl bg-[#f0fdf4] border border-[#bbf7d0] flex items-center justify-center shrink-0">
-            <svg class="w-5 h-5 text-[#15803d]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <div id="sticky-checkout-bar" class="absolute bottom-[56px] left-2.5 right-2.5 bg-white border border-[#cde8d3] rounded-2xl px-3 py-1.5 flex items-center justify-between gap-2.5 z-20 shadow-[0_4px_16px_rgba(0,0,0,0.06)]">
+        <button id="open-cart-btn" class="flex items-center gap-2 text-left flex-1 min-w-0">
+          <div class="relative w-9 h-9 rounded-xl bg-[#f0fdf4] border border-[#bbf7d0] flex items-center justify-center shrink-0">
+            <svg class="w-4 h-4 text-[#15803d]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/>
             </svg>
-            <span id="cart-count-badge" class="absolute -top-1 -right-1 min-w-[18px] h-[18px] px-1 rounded-full bg-[#15803d] text-white text-[11px] font-bold flex items-center justify-center tabular-nums">2</span>
+            <span id="cart-count-badge" class="absolute -top-1 -right-1 min-w-[17px] h-[17px] px-1 rounded-full bg-[#15803d] text-white text-[10px] font-bold flex items-center justify-center tabular-nums">2</span>
           </div>
-          <div class="truncate">
-            <div class="t-price text-[18px] font-bold text-[#15803d] tabular-nums leading-tight" id="bar-total">¥30.00</div>
-            <div class="t-sub text-[12px] text-[#4b5563] truncate" id="bar-weight">已选 2斤 (1000g) · 点此核对</div>
+          <div class="truncate min-w-0">
+            <div class="t-price text-[17px] font-bold text-[#15803d] tabular-nums leading-tight" id="bar-total">¥30.00</div>
+            <div class="t-sub text-[11px] text-[#4b5563] truncate" id="bar-weight">已选 2斤 (1000g) · 点此核对</div>
           </div>
         </button>
-        <button id="go-confirm-btn" class="touch-btn px-5 py-2.5 rounded-xl bg-[#16a34a] text-white text-[15px] font-bold shrink-0 disabled:opacity-40">
+        <button id="go-confirm-btn" class="touch-btn px-4 py-2 rounded-xl bg-[#16a34a] text-white text-[14px] font-bold shrink-0 disabled:opacity-40">
           去下单
         </button>
       </div>
 
       <!-- Bottom 2-Tab Navigation -->
-      <nav class="absolute bottom-0 left-0 right-0 h-[56px] bg-white border-t border-[#e5eae5] grid grid-cols-2 z-30">
+      <nav class="absolute bottom-0 left-0 right-0 h-[52px] bg-white border-t border-[#e5eae5] grid grid-cols-2 z-30">
         <button id="nav-shop" class="flex flex-col items-center justify-center gap-0.5 text-[#15803d] font-bold">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
           </svg>
-          <span class="text-[12px]">选购生鲜</span>
+          <span class="text-[11px]">选购生鲜</span>
         </button>
         <button id="nav-orders" class="flex flex-col items-center justify-center gap-0.5 text-[#6b7280]">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h3v3h-3zM20 14v3h-3M14 20h6"/>
           </svg>
-          <span class="text-[12px]">取货二维码 (<span id="nav-order-count">1</span>)</span>
+          <span class="text-[11px]">取货二维码 (<span id="nav-order-count">1</span>)</span>
         </button>
       </nav>
     </div>
@@ -938,11 +967,11 @@ strong { font-weight: 700; }
       wrap.innerHTML = PRIMARY_CATS.map((cat) => {
         const active = state.primaryCat === cat.id;
         return `
-          <button data-pcat="${cat.id}" class="flex flex-col items-center gap-1 shrink-0 min-w-[62px]">
-            <div class="w-12 h-12 rounded-full p-0.5 border-2 ${active ? "border-[#16a34a] bg-[#f0fdf4]" : "border-[#e5eae5] bg-white"} overflow-hidden">
+          <button data-pcat="${cat.id}" class="flex flex-col items-center gap-1 shrink-0 min-w-[56px]">
+            <div class="w-11 h-11 rounded-full p-0.5 border-2 ${active ? "border-[#16a34a] bg-[#f0fdf4]" : "border-[#e5eae5] bg-white"} overflow-hidden">
               <img src="${THUMBS[cat.thumb]}" alt="${cat.name}" class="w-full h-full object-cover rounded-full" />
             </div>
-            <span class="px-2 py-0.5 rounded-full text-[11px] font-semibold whitespace-nowrap ${active ? "bg-[#16a34a] text-white" : "text-[#374151]"}">
+            <span class="px-1.5 py-0.5 rounded-full text-[11px] font-semibold whitespace-nowrap ${active ? "bg-[#16a34a] text-white" : "text-[#374151]"}">
               ${cat.name}
             </span>
           </button>
@@ -967,8 +996,8 @@ strong { font-weight: 700; }
       rail.innerHTML = list.map((sub) => {
         const active = state.subCat === sub.id;
         return `
-          <button data-scat="${sub.id}" class="t-rail w-full px-2 py-3 text-left text-[12px] leading-snug relative transition-colors ${active ? "bg-white text-[#15803d] font-bold" : "text-[#4b5563] hover:bg-white/60"}">
-            ${active ? '<span class="absolute left-0 top-2.5 bottom-2.5 w-1 rounded-r bg-[#16a34a]"></span>' : ""}
+          <button data-scat="${sub.id}" class="t-rail w-full px-1.5 py-2.5 text-left text-[11px] sm:text-[12px] leading-snug relative transition-colors ${active ? "bg-white text-[#15803d] font-bold" : "text-[#4b5563] hover:bg-white/60"}">
+            ${active ? '<span class="absolute left-0 top-2 bottom-2 w-1 rounded-r bg-[#16a34a]"></span>' : ""}
             <span class="block pl-1">${sub.name}</span>
           </button>
         `;
@@ -1024,39 +1053,39 @@ strong { font-weight: 700; }
         const inCartGrams = state.cart[p.id] || 0;
         const stepCtrl = inCartGrams > 0
           ? `
-            <div class="inline-flex items-center gap-1.5">
-              <button data-dec="${p.id}" class="w-7 h-7 rounded-full border border-[#d1d5db] bg-white text-[#111827] font-bold flex items-center justify-center text-base leading-none">-</button>
-              <span class="text-[12px] font-bold text-[#15803d] tabular-nums min-w-[54px] text-center">${formatJin(inCartGrams)}/${inCartGrams}g</span>
-              <button data-inc="${p.id}" class="w-7 h-7 rounded-full bg-[#16a34a] text-white font-bold flex items-center justify-center text-base leading-none">+</button>
+            <div class="inline-flex items-center gap-1 shrink-0">
+              <button data-dec="${p.id}" class="w-6 h-6 rounded-full border border-[#d1d5db] bg-white text-[#111827] font-bold flex items-center justify-center text-sm leading-none">-</button>
+              <span class="text-[11px] font-bold text-[#15803d] tabular-nums px-0.5 whitespace-nowrap text-center">${formatJin(inCartGrams)}/${inCartGrams}g</span>
+              <button data-inc="${p.id}" class="w-6 h-6 rounded-full bg-[#16a34a] text-white font-bold flex items-center justify-center text-sm leading-none">+</button>
             </div>
           `
           : `
-            <button data-add="${p.id}" class="px-3 py-1.5 rounded-full bg-[#16a34a] text-white text-[12px] font-bold flex items-center gap-1 hover:bg-[#15803d]">
+            <button data-add="${p.id}" class="px-2.5 py-1 rounded-full bg-[#16a34a] text-white text-[11px] font-bold flex items-center gap-0.5 hover:bg-[#15803d] shrink-0 whitespace-nowrap">
               <span>+</span><span>选1斤</span>
             </button>
           `;
 
         return `
-          <div class="py-3 flex gap-2.5 items-start">
-            <button data-open="${p.id}" class="w-[86px] h-[86px] rounded-xl bg-[#fafcfa] border border-[#edf1ed] p-1 shrink-0 overflow-hidden">
+          <div class="py-2.5 flex gap-2 items-start min-w-0">
+            <button data-open="${p.id}" class="w-[72px] h-[72px] sm:w-[82px] sm:h-[82px] rounded-xl bg-[#fafcfa] border border-[#edf1ed] p-1 shrink-0 overflow-hidden">
               <img src="${THUMBS[p.thumb]}" alt="${p.title}" class="w-full h-full object-contain rounded-lg" />
             </button>
-            <div class="flex-1 min-w-0 flex flex-col justify-between min-h-[86px]">
-              <button data-open="${p.id}" class="text-left block w-full">
-                <div class="flex items-start justify-between gap-1">
-                  <h3 class="t-title text-[15px] font-bold text-[#111827] leading-snug truncate">${p.title}</h3>
-                  <span class="text-[11px] text-[#15803d] shrink-0 pt-0.5">详情 &gt;</span>
+            <div class="flex-1 min-w-0 flex flex-col justify-between min-h-[72px] sm:min-h-[82px]">
+              <button data-open="${p.id}" class="text-left block w-full min-w-0 overflow-hidden">
+                <div class="flex items-start justify-between gap-1 min-w-0">
+                  <h3 class="t-title text-[14px] sm:text-[15px] font-bold text-[#111827] leading-snug truncate min-w-0 flex-1">${p.title}</h3>
+                  <span class="text-[11px] text-[#15803d] shrink-0 pt-0.5 whitespace-nowrap">详情 &gt;</span>
                 </div>
-                <p class="t-sub text-[12px] text-[#6b7280] mt-0.5 line-clamp-1">${p.desc}</p>
-                <div class="flex items-center gap-1.5 mt-1">
-                  <span class="px-1.5 py-0.5 rounded bg-[#f0fdf4] border border-[#bbf7d0] text-[#15803d] text-[10px] font-semibold">保证有货</span>
-                  <span class="text-[10px] text-[#6b7280]">按克重备货</span>
+                <p class="t-sub text-[11px] sm:text-[12px] text-[#6b7280] mt-0.5 truncate">${p.desc}</p>
+                <div class="flex items-center gap-1 mt-1">
+                  <span class="px-1.5 py-0.5 rounded bg-[#f0fdf4] border border-[#bbf7d0] text-[#15803d] text-[10px] font-semibold whitespace-nowrap">保证有货</span>
+                  <span class="text-[10px] text-[#6b7280] truncate">按克重备货</span>
                 </div>
               </button>
-              <div class="flex items-center justify-between gap-1 pt-2">
-                <div class="flex items-baseline gap-1">
-                  <span class="t-price text-[16px] font-bold text-[#15803d] tabular-nums">¥${p.pricePer500g.toFixed(2)}</span>
-                  <span class="text-[11px] text-[#6b7280]">/1斤</span>
+              <div class="flex items-center justify-between gap-1 pt-1.5 flex-wrap min-w-0">
+                <div class="flex items-baseline gap-0.5 shrink-0">
+                  <span class="t-price text-[15px] sm:text-[16px] font-bold text-[#15803d] tabular-nums">¥${p.pricePer500g.toFixed(2)}</span>
+                  <span class="text-[10px] text-[#6b7280] whitespace-nowrap">/斤</span>
                 </div>
                 ${stepCtrl}
               </div>
